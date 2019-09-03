@@ -1,0 +1,10 @@
+@model Pizzabox.Domain.Models.Topping
+
+<form action="/Topping/Create" method="post">
+    @Html.ValidationMessageFor(m => m.Name)
+    <label for="name">Name<input type="text" id="name" name="name"></label>
+    @Html.ValidationMessageFor(m => m.Price)
+    <label for="price">Price<input type="currency" id="price" name="price"></label>
+
+    <button type="Submit">Create Topping</button>
+</form>

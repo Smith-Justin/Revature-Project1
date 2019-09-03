@@ -1,0 +1,15 @@
+@model List<Pizzabox.Domain.Models.Crust>
+
+<form action="/Pizza/AddCrust" method="post">
+    <fieldset>
+        <label for="crust">
+            <select id="crust" name="crust">
+                @foreach(var crust in Model){
+                    <option value=@crust.Id>@crust.Name</option>
+                }
+            </select>
+        </label>
+    </fieldset>
+
+    <button type="submit">Add Crust</button>
+</form>

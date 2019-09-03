@@ -1,0 +1,9 @@
+C:\Revature\Projects\Project1\Pizzabox\Pizzabox.Domain\bin\Debug\netstandard2.0\Pizzabox.Domain.deps.json
+C:\Revature\Projects\Project1\Pizzabox\Pizzabox.Domain\bin\Debug\netstandard2.0\Pizzabox.Domain.dll
+C:\Revature\Projects\Project1\Pizzabox\Pizzabox.Domain\bin\Debug\netstandard2.0\Pizzabox.Domain.pdb
+C:\Revature\Projects\Project1\Pizzabox\Pizzabox.Domain\obj\Debug\netstandard2.0\Pizzabox.Domain.csprojAssemblyReference.cache
+C:\Revature\Projects\Project1\Pizzabox\Pizzabox.Domain\obj\Debug\netstandard2.0\Pizzabox.Domain.csproj.CoreCompileInputs.cache
+C:\Revature\Projects\Project1\Pizzabox\Pizzabox.Domain\obj\Debug\netstandard2.0\Pizzabox.Domain.AssemblyInfoInputs.cache
+C:\Revature\Projects\Project1\Pizzabox\Pizzabox.Domain\obj\Debug\netstandard2.0\Pizzabox.Domain.AssemblyInfo.cs
+C:\Revature\Projects\Project1\Pizzabox\Pizzabox.Domain\obj\Debug\netstandard2.0\Pizzabox.Domain.dll
+C:\Revature\Projects\Project1\Pizzabox\Pizzabox.Domain\obj\Debug\netstandard2.0\Pizzabox.Domain.pdb

@@ -1,0 +1,11 @@
+@{
+    foreach(var order in Pizzabox.Domain.Models.SessionInfo.CurrentUser.OrderHistory){
+        <h1>Order</h1>
+        <ol>
+            @foreach(var pizza in order.Pizzas){
+                <h2>Pizza</h2>
+                <li>@pizza</li>
+            }
+        </ol>
+    }
+}

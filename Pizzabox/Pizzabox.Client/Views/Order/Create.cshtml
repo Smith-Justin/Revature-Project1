@@ -1,0 +1,14 @@
+@model List<Pizzabox.Domain.Models.Location>
+
+<form action="/Order/Create" method="post">
+    <fieldset>
+        <label for="chosenlocationid">Location</label>
+        <select id="chosenlocationid" name="chosenlocationid">
+            @foreach(var location in Model){
+                <option value=@location.Id>@location.Address.Street</option>
+            }
+        </select>
+    </fieldset>
+
+    <button type="Submit">Create Order</button>
+</form>

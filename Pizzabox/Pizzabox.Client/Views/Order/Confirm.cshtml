@@ -1,0 +1,9 @@
+<h1>Order</h1>
+<ol>
+    @foreach(var pizza in Pizzabox.Domain.Models.SessionInfo.CurrentOrder.Pizzas){
+        <h2>Pizza</h2>
+        <li>@pizza</li>
+    }
+
+    <form action="/Order/Confirm" method="post" value="yes"><button type="submit">Confirm Order</button></form>
+</ol>

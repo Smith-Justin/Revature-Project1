@@ -1,0 +1,11 @@
+@model List<Pizzabox.Domain.Models.Address>
+
+<ul>
+    @foreach(var address in Model){
+        <li>
+            <p>@address.Street</p>
+            <p>@address.City,
+            @address.Province</p>
+        </li>
+    }
+</ul>

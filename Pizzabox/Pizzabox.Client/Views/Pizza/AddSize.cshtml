@@ -1,0 +1,14 @@
+@model List<Pizzabox.Domain.Models.Size>
+
+<form action="/Pizza/AddSize" method="post">
+    <fieldset>
+        <label for="size">Size</label>
+        <select id="size" name="size">
+            @foreach(var size in Model){
+                <option value=@size.Id>@size.Name</option>
+            }
+        </select>
+    </fieldset>
+
+    <button type="submit">Add Size</button>
+</form>
